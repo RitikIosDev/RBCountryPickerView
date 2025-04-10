@@ -1,0 +1,16 @@
+PODS:
+  - RBCountryPickerView (1.0.0)
+
+DEPENDENCIES:
+  - RBCountryPickerView (from `RBCountryPickerView/.`)
+
+EXTERNAL SOURCES:
+  RBCountryPickerView:
+    :path: RBCountryPickerView/.
+
+SPEC CHECKSUMS:
+  RBCountryPickerView: c44d87ca796cc55b195efe7fcf92d41e6fe451f9
+
+PODFILE CHECKSUM: 216a35e7be712c2b743eb777843a40ebd344954c
+
+COCOAPODS: 1.16.2

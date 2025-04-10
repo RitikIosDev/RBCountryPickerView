@@ -1,0 +1,6 @@
+framework module RBCountryPickerView {
+  umbrella header "RBCountryPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
