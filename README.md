@@ -24,9 +24,12 @@ Perfect for apps that need users to select countries with flag icons.
 
 
 ## 📸 Screenshot
-![simulator_screenshot_5FC7AE8C-0464-419B-8674-DBB31EC2AA50](https://github.com/user-attachments/assets/ad7aa994-a879-4d75-ba92-fc666aface6f)
-![simulator_screenshot_669AE971-B52C-4384-AC13-0B4D8445A648](https://github.com/user-attachments/assets/bfe6ef68-0bf8-4f90-b326-963827f7ff4a)
-![simulator_screenshot_9DDCAC17-21AB-4CDC-B4DF-BFCE7317FE2B](https://github.com/user-attachments/assets/f1772fa6-7031-4b37-a1b1-c58f8a66f4dd)
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/ad7aa994-a879-4d75-ba92-fc666aface6f" width="200" />
+  <img src="https://github.com/user-attachments/assets/bfe6ef68-0bf8-4f90-b326-963827f7ff4a" width="200" />
+  <img src="https://github.com/user-attachments/assets/f1772fa6-7031-4b37-a1b1-c58f8a66f4dd" width="200" />
+</p>
+
 
 A clean and reusable **Country Picker View** built with SwiftUI.  
 Perfect for iOS apps that require country selection with flags.
@@ -38,7 +41,6 @@ Perfect for iOS apps that require country selection with flags.
 - ✅ Supports light/dark mode
 - ✅ Customizable UI
 - ✅ Easy integration in any SwiftUI View
-- ✅ No third-party dependencies
 
 ---
 
@@ -46,53 +48,52 @@ Perfect for iOS apps that require country selection with flags.
 
 | Version | Swift     | iOS Target | Xcode Version |
 |---------|-----------|------------|----------------|
-| 1.0.0   | Swift 5.7+| iOS 15.0+  | Xcode 14+     |
+| 1.0.0   | Swift 5.7+| iOS 14.0+  | Xcode 14+     |
 
 ---
 
-## 📦 Installation
+📦 Installation (CocoaPods).
 
-### ▶️ Using CocoaPods
-
-Install "RBCountryPickerView" easily using CocoaPods:
-
-1️⃣ **Install CocoaPods** (if not already installed):
-
-sudo gem install cocoapods
-
-2️⃣ Initialize Podfile (if needed):
-
-pod init
-
-3️⃣ Edit Podfile and add:
+RBCountryPickerView (SwiftUI):
+To install it, simply add the following line to your Podfile:
 
 pod 'RBCountryPickerView'
 
-➡️ Full Example:
+Or you can choose the version you need based on Swift support:
 
-platform :ios, '15.0'
+pod 'RBCountryPickerView', '14.0'
 
-target 'YourAppName' do
-
-  use_frameworks! 
-  
-  pod 'RBCountryPickerView' 
-  
-end
-
-4️⃣ Install the Pod:
+Then run:
 
 pod install
 
-5️⃣ Open the .xcworkspace:
-
-open YourAppName.xcworkspace
-
-6️⃣ Import & use in your Swift file:
+And don’t forget to import it wherever needed:
 
 import RBCountryPickerView
 
-✅ Done! You’re ready to go 🎉
+Ready to use.
+
+📦 Installation
+Swift Package Manager (Recommended)
+You can use Swift Package Manager to install RBCountryPickerView easily in your project.
+
+📲 Steps to Integrate:
+Open your Xcode project.
+
+Go to File > Add Packages...
+
+Enter the package URL:
+
+https://github.com/YourUsername/RBCountryPickerView.git
+Choose the version you want (e.g., 1.0.0)
+
+Click Add Package
+
+✅ Import in your Swift file:
+
+import RBCountryPickerView
+
+That's it! You're ready to use 🎉
 
 ## 🏆 Best Practices
 
@@ -113,7 +114,6 @@ Contributions are welcome! Feel free to:
 Let's make this library better together!
 
 ---
-
 
 ## 👨‍💻 Author
 
