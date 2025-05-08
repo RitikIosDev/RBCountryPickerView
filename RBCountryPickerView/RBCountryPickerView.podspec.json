@@ -2,12 +2,15 @@
   "name": "RBCountryPickerView",
   "version": "1.0.0",
   "source": {
-    "git": "https://github.com/RBCountryPickerView.git",
+    "git": "https://github.com/RitikIosDev/RBCountryPickerView.git",
     "tag": "1.0.0"
   },
   "summary": "Light weight country picker library for swiftUI.",
   "homepage": "https://github.com/RitikIosDev/RBCountryPickerView",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Ritik Bunkar": "Ritik.bunkar@infoenum.com"
   },
@@ -23,7 +26,9 @@
       "*.swift",
       "**/*.swift"
   ],
-  "resources": "Resources/*.json",
+  "resources": [
+    "RBCountryPickerView/Resources/countries+states.json"
+  ],
   "frameworks": [
     "UIKit",
     "Foundation"
